@@ -1,6 +1,7 @@
 CREATE TABLE [dbo].[PC_CONFIG]
 (
 [PROCESS_CODE] [varchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
-[STEP_CODE] [varchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+[STEP_CODE] [varchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[DOC_GUID] [numeric] (20, 0) NULL
 ) ON [PRIMARY]
 GO
