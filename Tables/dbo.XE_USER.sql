@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[XE_USER]
+(
+[XE_USERNAME] [varchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+[PWD] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
+) ON [PRIMARY]
+GO
